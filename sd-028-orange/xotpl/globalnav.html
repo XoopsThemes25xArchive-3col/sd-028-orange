@@ -1,0 +1,38 @@
+<div id="xo-globalnav" class="x2-nl x2-navigation">
+<ul>
+		<!-- menu en mode anonyme -->
+		<li class="x2-label">Main navigation</li>
+		<{if !$xoops_isuser}><{/if}>
+		<li><a href="#" accesskey="a" title="Titel 1">Titel 1</a></li>
+		<li>
+			<a href="#" accesskey="a" title="Titel 2">Titel 2</a>
+			<ul>
+				<li><a href="#" title="Untertitel 2.1">Untertitel 2.1</a></li>
+				<li><a href="#" title="Untertitel 2.2">Untertitel 2.2</a></li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="#" accesskey="a" title="Titel 3">Titel 3</a>
+			<ul>
+				<li><a href="#" title="Untertitel 3.1">Untertitel 2.1</a></li>
+				<li><a href="#" title="Untertitel 3.2">Untertitel 2.2</a></li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="#" accesskey="a" title="Titel 4">Titel 4</a>
+			<ul>
+				<li><a href="#" title="Untertitel 4.1">Untertitel 4.1</a></li>
+			</ul>
+		</li>
+	<{if $xoops_isuser}>
+		<li>
+			<a href="#" accesskey="a" title="Titel 5">Titel 5</a>
+			<ul>
+				<li><a href="#" title="Untertitel 5.1">Untertitel 5.1</a></li>
+			</ul>
+		</li>
+	<{/if}>
+</ul>
+</div>
